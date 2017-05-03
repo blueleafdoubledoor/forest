@@ -1,0 +1,12 @@
+[package]
+name = "forest"
+version = "0.1.0"
+authors = ["bldd <kamigamomonster@gmail.com>"]
+
+[dependencies]
+iron = "0.5.*"
+router = "*"
+staticfile = "*"
+
+[dependencies.mount]
+git = "https://github.com/iron/mount.git"
